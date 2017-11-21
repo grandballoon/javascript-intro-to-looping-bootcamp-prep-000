@@ -1,6 +1,7 @@
 function forLoop (array) {
   for (var i = 0; i < 25; i++){
     if (i === 1){
+<<<<<<< HEAD
       array.push(`I am ${i} strange loop`)
     }
       else {
@@ -26,3 +27,12 @@ do {
 } while (array.length > 0 && maybeTrue())
  return array;
  }
+=======
+      console.log("I am ${i} strange loop")
+      else {
+        console.log("I am ${i} strange loops")
+      }
+    }
+  }
+}
+>>>>>>> 105272086c886eb4313bfd9486f493362461fe4b
